@@ -1,0 +1,510 @@
+/* Base css */
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    }
+body {
+	line-height: 1;
+    font-family: 'Cabin', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+.text{
+    color:#766f62;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.text--bold{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.text--bolder{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.text--bolder-h2{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+.text--bolder-h3{
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+.button{
+    padding:1rem 1rem;
+    border-radius:5%;
+}
+.button--getStarted{
+    background-color:#000000;
+    color:white;
+}
+.button--getStarted:hover{
+    border: 2px solid #000000;
+    background-color:#fff;
+    color: #000;;
+}
+.button--login:hover{
+    border: 2px solid #000000;
+}
+.input{
+    padding: 1rem;
+    width: 30%;
+    border-radius: 5%;
+    color:#766f62;
+}
+.icon{
+    width: 20px;
+}
+/* End of base css */
+
+/* Start of banner css */
+.banner{
+    background-color: #000000;
+    color:white;
+    text-align: center;
+    padding: 1rem 1rem;
+    font-weight: 500;
+}
+/* End of banner css */
+
+/* Start of header css */
+.header {
+    display: flex;
+    background-color: #f0eeeb;
+    justify-content: space-between;
+    align-items: center;
+    height:100px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.open--menu{
+    display:none;
+    position: absolute;
+    right: 5%;
+    top: 1rem;
+}
+.hide--menu{
+    display:none;
+    position: absolute;
+    right: 5%;
+    top: 1rem;
+}
+.header--links{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.link:hover{
+        background:
+           linear-gradient(
+             to right,
+             #000000,
+             rgb(10, 8, 8) 5px,
+             transparent
+           );
+           color:#fff;
+}
+.header--buttons{
+    display: flex;
+    width: 20%;
+    justify-content:space-between;
+}
+/* End of header css */
+
+/* Start of spense--features css */
+.spense--features{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #f0eeeb;
+}
+.spense--features-text{
+    width: 60%;
+    padding-top: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+}
+.spense--features-list{
+    margin-bottom: 1rem;
+}
+.spense--features-text>form>:first-child{
+    margin-right: 1rem;
+}
+.spense--features-list>div{
+    margin-bottom: 0.5rem;
+}
+.spense--features-list>div>img{
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+.spense--features-image{
+    background-image: url('../Assets/Hero\ Image\ \(Desktop\).png');
+    background-size: 100% 100%;
+    height: auto;
+    width: 40%;
+}
+/* End of spense--features css */
+
+/* Start of spense--partners css */
+.spense--partners{
+    background-color: #fff;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.spense--partners>img{
+    width: 10%;
+    margin-right: 1rem;
+}
+/* End of spense--partners css */
+
+/* Start of spense--why css */
+.spense--why{
+    display: flex;
+    margin-left: 10%;
+    margin-right:10%;
+    background-color: #f0eeeb;
+    background-image: url('../Assets/Phone\ Mockup\ \(Desktop\).png');
+    background-position: 0rem 1rem ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.spense--why-text{
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+    width: 50%;
+}
+.spense--why-text>a{
+    text-decoration: underline;
+}
+.spense--why-image{
+    outline: 2px solid red;
+}
+.spense--why-image>img{
+    width: 100%;  
+    height: 100%; 
+}
+/* End of spense--why css */
+
+/* Start of spense--textEditor css */
+.spense--textEditor{
+  display: flex;   
+  padding: 3rem;
+  margin-left: 10%;
+  margin-right:10%; 
+}
+.spense--textEditor-text{
+    width:50%;   
+    padding-top: 4rem; 
+}
+.spense--textEditor-text>a{
+    text-decoration:underline;
+}
+.spense--textEditor-image{
+    width:50%;
+}
+.spense--textEditor-image>img{
+    width: 100%; 
+}
+/* End of spense--textEditor css */
+
+/* Start of footer css */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right:10%; 
+    padding-top:3rem;
+    padding-bottom: 3rem;
+    background-color: #000000;
+    color: #fff;    
+}
+.footer>div{
+    display: flex;
+    flex-direction: column;
+}
+.footer>div>a{
+    margin-top: 1rem;
+    color:#766f62;
+}
+.footer>div>a:hover{
+    color:#fff;
+}
+.footer--about{
+    width: 30%;
+}
+/* End of footer css */
+
+/* Tablets */
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1027px){
+   /* Start Base css */
+    .text{
+        line-height: 1.5;
+    }
+    /* End Base css */
+
+    /* Start header css */
+    .header{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .header--buttons{
+        width: 30%;
+    }
+    /* End header css */
+
+    /* Start spense--features css */
+    .spense--features{
+        flex-direction: column-reverse;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .spense--features-text{
+        width: 100%;
+        padding-right: 0rem;
+    }
+    .spense--features-image{
+        background-image: url('../Assets/Hero\ Image\ \(Tablet\).png');
+        height: 500px;
+        width: 100%;
+    }
+    /* end spense--feature css */
+
+    /*start spense--partners css */
+    .spense--partners{
+        padding-left: 5%;
+        padding-right: 5%; 
+    }
+    /* end spens--partners css */
+
+    /* Start spens--why css */
+    .spense--why{
+        background-image: url('../Assets/Phone\ Mockup\ \(Tablet\).png');
+        background-position: left 15rem ;
+        background-size: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 2rem;
+        height: 700px;  
+    }
+    .spense--why-text{
+        width: 100%;
+        padding-right: 5rem;
+    }
+    /* End spens--why css */
+
+    /* Start spens--textEditor css */
+    .spense--textEditor{
+        flex-direction: column-reverse;
+        padding: 0rem;
+        margin-left: 5%;
+        margin-right:5%; 
+    }
+    .spense--textEditor-text{
+        width:100%;   
+        padding-top: 4rem; 
+    }
+    .spense--textEditor-image{
+        width:100%;
+    }
+    /* End spens--textEditor css */
+
+    /* Start footer css */
+    .footer{
+        padding-left: 5%;
+        padding-right:5%; 
+    }
+    /* End footer css */
+}
+
+/*Mobile phones */
+@media only screen 
+  and (min-width: 0px) 
+  and (max-width: 767px){
+      /* Start of base css */
+    .input{
+        padding:0.5rem 1.5rem;
+        width: 50%;
+    }
+    .text{
+        line-height: 1.5;
+    }
+    .text--bolder-h2{
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    .button{
+        padding:1rem 0rem;
+    }
+    .button--getStarted{
+        padding:0.5rem 1.5rem;
+    }
+    .button--login{
+        padding:0rem 0rem;
+    }
+    .button--login:hover{
+        background:
+        linear-gradient(
+          to right,
+          #000000,
+          rgb(10, 8, 8) 5px,
+          transparent
+        );
+        color:#fff;
+        border:none;
+    }
+    /*End of base css  */
+
+    /* Start of header css */
+    .header{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+
+    }
+    .header--logo{
+        margin-top: 1rem;
+    }
+    .open--menu{
+        display: block;
+    }
+    .header--links{
+        display: none;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+    }
+    .header--links>*{
+        padding-bottom: 1rem;
+    }
+    .header--buttons{
+        display: none;
+        width: 100%;
+        justify-content:space-between;
+    }
+    /* end of header css */
+
+    /* Start of spense--features */
+    .spense--features{
+        flex-direction: column-reverse;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .spense--features-text{
+        width: 100%;
+        padding-top: 1rem;
+        padding-right: 0rem;
+    }
+    .spense--features-image{
+        background-image: url('../Assets/Hero\ Image\ \(Mobile\).png');
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 100%;
+        background-position: 0rem 4rem;
+    }
+    /* end of spense--features css */
+    
+    /* start of spense--partners css */ 
+    .spense--partners{
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+        padding-left: 5%;
+        padding-right: 5%; 
+    }
+    .spense--partners>img{
+        width: 15%;
+        margin-bottom: 0.5rem;
+    }
+    /* end of spense--partners css */
+
+    /* start of spense--why css */
+    .spense--why{
+        background-image: url('../Assets/Phone\ Mockup\ \(Mobile\).png');
+        background-position: left 12rem ;
+        background-size: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 700px;  
+    }
+    .spense--why-text{
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+    /* end of spense--why css */
+
+    /* start of spense--textEditor css */
+    .spense--textEditor{
+        flex-direction: column-reverse;
+        padding: 0rem;
+        margin-left: 5%;
+        margin-right:5%; 
+    }
+    .spense--textEditor-text{
+        width:100%;   
+        padding-top: 2rem; 
+    }
+    .spense--textEditor-image{
+        width:100%;
+    }
+    /* end of spense--textEditor css */
+
+   /* start of footer css */
+    .footer{
+        padding-left: 5%;
+        padding-right: 5%;
+        flex-wrap: wrap;
+    }
+    .footer>div{
+        margin-bottom: 1rem;
+    }
+    .footer--about{
+        order: 0;
+        width:100%;
+    }
+    .break {
+        flex-basis: 100%;
+        height: 0;
+      }
+    /* End of footer css */
+  }
+  /*jio phone and galaxy fold */
+@media only screen 
+and (max-width: 300px) {
+    .spense--why{
+        background-image: url('../Assets/Phone\ Mockup\ \(Mobile\).png');
+        background-position: left 18.5rem ;
+        background-size: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 700px;  
+    }
+}
